@@ -1,0 +1,9 @@
+# list-style
+
+---
+
+- 불렛의 모양 변경 가능
+- 단축 속성 스타일
+    - `list-style-image` `list-style-position` `list-style-type`
+        - position : `inside`, `outside`
+        - type: `disc`, `circle`, `square`, `decimal` …
