@@ -1,16 +1,19 @@
 # 텍스트 Style
 
 ## color
+
 - 폰트의 색상
 - -font가 붙지 않으니 주의
 - 키워드, HEX, rgb(), rgba(), hsl(), hsla() 등의 방법으로 표기
 - transparent : 투명한 색
 
 ### curentColor
+
 - 저시력 시각 장애를 위해 폰트의 색상과 배경의 명도 대비도 중요함
 - 최소한 4.5:1
 
 ## font-family 글꼴 종류
+
 - 사용자의 컴퓨터에 설치되어있지 않은 글꼴을 사용자가 웹 사이트에 접속했을 때 다운로드 시키는 방법
 - 3개 정도로 지정을 하는데, 글꼴이 사용자 시스템에 없는 경우 다른 글꼴로 대체하기 위함임
 
@@ -79,13 +82,9 @@ body{
 
 ## font-size
 
----
-
 - px, em, rem
 
 ## font- weight
-
----
 
 - 텍스트 굵기 설정
 - `normal`: 기본
@@ -96,8 +95,6 @@ body{
 
 ## text-transform
 
----
-
 - 영문자에만 적용됨
 - `none`: 변형되지 않
 - **`uppercase`**: 모든 텍스트를 대문자로
@@ -105,8 +102,6 @@ body{
 - `capitalize`: 모든 단어의 첫글자를 대문자로
 
 ## test-decoration
-
----
 
 ### text-decoration-line
 
@@ -133,8 +128,6 @@ body{
 
 ## text-shadow
 
----
-
 - 텍스트에 그림자를 추가
 - 축약형
 - `offset-x | offset-y | blur-radius | color`
@@ -145,8 +138,6 @@ body{
 
 ## text-align
 
----
-
 - 텍스트의 가로정렬을 설정
 - `left` : 왼쪽 정렬
 - `right` : 오른쪽 정렬
@@ -155,8 +146,6 @@ body{
 - `justify-all`: 양쪽정렬(마지막 줄 적용)
 
 ## vertical-align
-
----
 
 - 텍스트의 세로 정렬을 지정
 - 인라인, 인라인 블록 및 테이블 셀 요소에만 적용됨
@@ -189,8 +178,6 @@ body{
 
 ## line-height
 
----
-
 - 행간을 설정
 - `line-height`의 기본값 : 보통 `1.5`를 많이 사용
 - 단위, 배수, % 등의 값으로 설정
@@ -198,27 +185,19 @@ body{
 
 ## letter-spacing
 
----
-
 - 자간을 설정
 - 단위 값으로 설정
 
 ## word-spacing
-
----
 
 - 단어와 단어 사이의 간격 설정
 - 단위 값으로 설정
 
 ## text-indent
 
----
-
 - 문단 첫째줄의 들여쓰기 길이를 설
 
 ## word-break
-
----
 
 - 텍스트가 자신의 콘텐츠 박스 밖으로 넘칠 경우 줄바꿈 여부를 지정
 - normal 기본 줄 바꿈 규칙 사용
@@ -229,8 +208,6 @@ body{
 - br 태그 넣으면 안 됨
 
 ## text-overflow
-
----
 
 - 텍스트가 넘칠 경우 어떻게 표시할지 설정
 - 말줄임 처리할 때 자주 사용
@@ -253,14 +230,10 @@ body{
 
 ## font-style
 
----
-
 - 이탤릭체 사용
 - 기울임 글꼴
 
 ## font(단축 속성)
-
----
 
 - font: `font-style` `font-variant` **`font-weight`** `font-stretch` **`font-size`/`line-height`** **`font-family`**
 - 순서 중요합니다!
